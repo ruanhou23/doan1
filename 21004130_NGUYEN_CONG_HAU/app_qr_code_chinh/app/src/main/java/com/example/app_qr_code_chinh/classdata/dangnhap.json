@@ -1,0 +1,108 @@
+{
+  "Android Tutorials": {
+    "Jun 11, 2024 9:34:31 AM": {
+      "dataDesc": "s",
+      "dataImage": "https://firebasestorage.googleapis.com/v0/b/dangnhap-5fbbe.appspot.com/o/Android%20Images%2F276892518?alt=media&token=05a763b2-55dc-4967-8763-392a9f6b43a8",
+      "dataLang": "s",
+      "dataTitle": "s"
+    }
+  },
+  "Cam": {
+    "camId1": {
+      "hinhAnhCam": {
+        "hinhAnhCamId1": true
+      },
+      "maQr": {
+        "maQrId1": true
+      },
+      "moTa": "Mo Ta",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "ngayThuHoach": "2023-01-01",
+      "tenLoai": "Ten Loai",
+      "trongLuong": 1.2,
+      "xuatXu": "Xuat Xu"
+    }
+  },
+  "HinhAnhCam": {
+    "hinhAnhCamId1": {
+      "camId": "camId1",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "urlHinhAnh": "http://example.com/image.jpg"
+    }
+  },
+  "LichSuQuet": {
+    "lichSuQuetId1": {
+      "maQrId": "maQrId1",
+      "nguoiDungId": "nguoiDungId1",
+      "thoiGianQuet": "2023-01-01T00:00:00Z"
+    }
+  },
+  "MaQr": {
+    "maQrId1": {
+      "camId": "camId1",
+      "duLieuMa": "DuLieuMaQr",
+      "lichSuQuet": {
+        "lichSuQuetId1": true
+      },
+      "ngayTao": "2023-01-01T00:00:00Z"
+    }
+  },
+  "NguoiDung": {
+    "12334989": {
+      "email": "sadas",
+      "matKhau": "dad",
+      "ngayCapNhat": "Tue Jun 11 04:06:22 GMT+07:00 2024",
+      "ngayTao": "Tue Jun 11 04:06:22 GMT+07:00 2024",
+      "ten": "dasd",
+      "tr": "gia_tri_nao_do",
+      "trangThai": "hoat_dong",
+      "tt": "1",
+      "urlHinhAnh": "content://com.google.android.apps.photos.contentprovider/-1/1/content%3A%2F%2Fmedia%2Fexternal%2Fimages%2Fmedia%2F76/ORIGINAL/NONE/image%2Fpng/1123031497"
+    },
+    "68908942": {
+      "email": "hau2",
+      "matKhau": "hau2",
+      "ngayCapNhat": "Tue Jun 11 04:37:54 GMT+07:00 2024",
+      "ngayTao": "Tue Jun 11 04:37:54 GMT+07:00 2024",
+      "ten": "hau2",
+      "tr": "gia_tri_nao_do",
+      "trangThai": "hoat_dong",
+      "tt": "1",
+      "urlHinhAnh": "content://com.google.android.apps.photos.contentprovider/-1/1/content%3A%2F%2Fmedia%2Fexternal%2Fimages%2Fmedia%2F75/ORIGINAL/NONE/image%2Fpng/1153861708"
+    },
+    "79881971": {
+      "email": "admin",
+      "matKhau": "admin",
+      "ngayCapNhat": "Tue Jun 11 00:24:14 GMT+07:00 2024",
+      "ngayTao": "Tue Jun 11 00:24:14 GMT+07:00 2024",
+      "ten": "admin",
+      "tr": "gia_tri_nao_do",
+      "trangThai": "hoat_dong",
+      "tt": "0",
+      "urlHinhAnh": "sadsd"
+    },
+    "07292062": {
+      "email": "hau",
+      "matKhau": "hau",
+      "ngayCapNhat": "Tue Jun 11 04:11:33 GMT+07:00 2024",
+      "ngayTao": "Tue Jun 11 04:11:33 GMT+07:00 2024",
+      "ten": "hau",
+      "tr": "gia_tri_nao_do",
+      "trangThai": "hoat_dong",
+      "tt": "1",
+      "urlHinhAnh": "content://com.google.android.apps.photos.contentprovider/-1/1/content%3A%2F%2Fmedia%2Fexternal%2Fimages%2Fmedia%2F76/ORIGINAL/NONE/image%2Fpng/935472398"
+    }
+  },
+  "ThongBao": {
+    "thongBaoId1": {
+      "emailNguoiGui": "nguoi_gui@example.com",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "nguoiDungId": "nguoiDungId1",
+      "noiDung": "Noi Dung",
+      "tenNguoiGui": "Ten Nguoi Gui",
+      "tieuDe": "Tieu De",
+      "urlChuyenHuong": "http://example.com",
+      "urlHinhNguoiGui": "http://example.com/sender.jpg"
+    }
+  }
+}

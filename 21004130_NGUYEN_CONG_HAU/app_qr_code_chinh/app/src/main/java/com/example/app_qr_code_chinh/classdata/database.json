@@ -1,0 +1,75 @@
+{
+  "NguoiDung": {
+    "nguoiDungId1": {
+      "email": "example@example.com",
+      "ten": "John Doe",
+      "urlHinhAnh": "http://example.com/pic.jpg",
+      "trangThai": "hoat_dong",
+      "matKhau": "hashed_password",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "ngayCapNhat": "2023-01-01T00:00:00Z",
+      "thongBao": {
+        "thongBaoId1": true,
+        "thongBaoId2": true
+      },
+      "lichSuQuet": {
+        "lichSuQuetId1": true,
+        "lichSuQuetId2": true
+      },
+      "TT": "gia_tri_nao_do",
+      "Tr": "gia_tri_nao_do"
+    }
+  },
+  "ThongBao": {
+    "thongBaoId1": {
+      "tieuDe": "Tieu De",
+      "noiDung": "Noi Dung",
+      "tenNguoiGui": "Ten Nguoi Gui",
+      "emailNguoiGui": "nguoi_gui@example.com",
+      "urlHinhNguoiGui": "http://example.com/sender.jpg",
+      "urlChuyenHuong": "http://example.com",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "nguoiDungId": "nguoiDungId1"
+    }
+  },
+  "Cam": {
+    "camId1": {
+      "tenLoai": "Ten Loai",
+      "xuatXu": "Xuat Xu",
+      "ngayThuHoach": "2023-01-01",
+      "trongLuong": 1.2,
+      "moTa": "Mo Ta",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "maQr": {
+        "maQrId1": true
+      },
+      "hinhAnhCam": {
+        "hinhAnhCamId1": true
+      }
+    }
+  },
+  "MaQr": {
+    "maQrId1": {
+      "duLieuMa": "DuLieuMaQr",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "camId": "camId1",
+      "lichSuQuet": {
+        "lichSuQuetId1": true
+      }
+    }
+  },
+  "HinhAnhCam": {
+    "hinhAnhCamId1": {
+      "urlHinhAnh": "http://example.com/image.jpg",
+      "ngayTao": "2023-01-01T00:00:00Z",
+      "camId": "camId1"
+    }
+  },
+  "LichSuQuet": {
+    "lichSuQuetId1": {
+      "thoiGianQuet": "2023-01-01T00:00:00Z",
+      "nguoiDungId": "nguoiDungId1",
+      "maQrId": "maQrId1"
+    }
+  }
+}

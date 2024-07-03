@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">app_qr_code_chinh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">
+    <u>I already have an account , login</u>
+    </string>
+    <string name="register_text">
+    <u>Register</u>
+    </string>
+    <string name="login_text">
+    <u>Login</u>
+    </string>
+    <string name="scan_from_image">anh</string>
+    <string name="flash">led</string>
+    <string name="position_code">mã code</string>
+    <string name="default_web_client_id">YOUR_CLIENT_ID.apps.googleusercontent.com</string>
+    <string name="title_activity_gd_update">GD_activity_update</string>
+</resources>

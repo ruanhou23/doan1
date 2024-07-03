@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_hien_thi_ui"
+    app:startDestination="@id/GD_quet_ma_qr">
+
+    <fragment
+        android:id="@+id/GD_quet_ma_qr"
+        android:name="com.example.app_qr_code_chinh.GD_quet_ma_qr"
+        android:label="fragment_g_d_quet_ma_qr"
+        tools:layout="@layout/fragment_g_d_quet_ma_qr" />
+    <fragment
+        android:id="@+id/GD_xem_thong_tin_quet_ma"
+        android:name="com.example.app_qr_code_chinh.GD_xem_thong_tin_quet_ma"
+        android:label="fragment_g_d_xem_thong_tin_quet_ma"
+        tools:layout="@layout/fragment_g_d_xem_thong_tin_quet_ma" />
+    <fragment
+        android:id="@+id/GD_lich_su_quet_ma"
+        android:name="com.example.app_qr_code_chinh.lichsu.GD_lich_su_quet_ma"
+        android:label="fragment_g_d_lich_su_quet_ma"
+        tools:layout="@layout/fragment_g_d_lich_su_quet_ma" />
+    <fragment
+        android:id="@+id/GD_xem_them"
+        android:name="com.example.app_qr_code_chinh.GD_xem_them"
+        android:label="fragment_g_d_xem_them"
+        tools:layout="@layout/fragment_g_d_xem_them" />
+    <fragment
+        android:id="@+id/GD_quan_ly_nguoi_dung"
+        android:name="com.example.app_qr_code_chinh.GD_quan_ly_nguoi_dung"
+        android:label="fragment_g_d_quan_ly_nguoi_dung"
+        tools:layout="@layout/fragment_g_d_quan_ly_nguoi_dung" />
+    <fragment
+        android:id="@+id/GD_quan_ly_thong_tin_cam_sanh"
+        android:name="com.example.app_qr_code_chinh.GD_quan_ly_thong_tin_cam_sanh"
+        android:label="fragment_g_d_quan_ly_thong_tin_cam_sanh"
+        tools:layout="@layout/fragment_g_d_quan_ly_thong_tin_cam_sanh" />
+    <fragment
+        android:id="@+id/GD_thong_ke_bao_cao"
+        android:name="com.example.app_qr_code_chinh.GD_thong_ke_bao_cao"
+        android:label="fragment_g_d_thong_ke_bao_cao"
+        tools:layout="@layout/fragment_g_d_thong_ke_bao_cao" />
+</navigation>

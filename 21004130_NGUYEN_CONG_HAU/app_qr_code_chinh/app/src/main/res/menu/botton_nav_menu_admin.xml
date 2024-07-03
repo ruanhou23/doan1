@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/quan_ly_nguoi_dung_xml"
+        android:title="Quản lý người dùng"
+        android:icon="@drawable/adduser"/>
+    <item android:id="@+id/quan_ly_thong_tin_xml"
+        android:title="Quẩn lý thông tin cam sành"
+        android:icon="@drawable/baseline_add_24"
+        />
+    <item android:id="@+id/xem_them_admin_xml"
+        android:title="xem thêm"
+        android:icon="@drawable/baseline_reorder_24"
+        />
+</menu>

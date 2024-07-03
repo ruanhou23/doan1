@@ -1,0 +1,128 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard_user_xml"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/avartar_user_xml"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/uploadimg"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"/>
+
+        <TextView
+            android:id="@+id/ten_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/avartar_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="NAME"
+            android:textColor="@color/lavender"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/matkhau_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ten_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="PASS"
+            android:textAlignment="center"
+            android:textColor="@color/lavender"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/email_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ten_user_xml"
+            android:layout_toEndOf="@id/avartar_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="EMAIL"
+            android:textColor="@color/lavender"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/trangthai_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_user_xml"
+            android:layout_toEndOf="@id/avartar_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="STATUS"
+            android:textColor="@color/lavender"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/ngaytao_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trangthai_user_xml"
+            android:layout_toEndOf="@id/avartar_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="CREATED DATE"
+            android:textColor="@color/lavender"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/ngaycapnhat_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngaytao_user_xml"
+            android:layout_toEndOf="@id/avartar_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="UPDATED DATE"
+            android:textColor="@color/lavender"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/tt_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngaycapnhat_user_xml"
+            android:layout_toEndOf="@id/avartar_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="TT"
+            android:textColor="@color/lavender"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/tr_user_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tt_user_xml"
+            android:layout_toEndOf="@id/avartar_user_xml"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="TR"
+            android:textColor="@color/lavender"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
